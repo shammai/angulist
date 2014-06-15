@@ -25,11 +25,11 @@ Example Syntax:
 The generated output would be:
 <pre>
     ```
-<input id="myId" class="form-control form-control-small" ng-model="returnValue" list="myId-list">
-<datalist id="myId-list">
-<option>Test Name 1</option>
-<option>Test Name 2</option>
-</datalist>
+&lt;input id="myId" class="form-control form-control-small" ng-model="returnValue" list="myId-list"&gt;
+&lt;datalist id="myId-list"&gt;
+&lt;option&gt;Test Name 1&lt;/option&gt;
+&lt;option&gt;Test Name 2&lt;/option&gt;
+&lt;/datalist&gt;
     ```
 </pre>
 
