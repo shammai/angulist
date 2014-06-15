@@ -20,18 +20,18 @@ var objectArray = [{"Name":"Test Name 1", "Value":"1234"},{"Name": "Test Name 2"
 
 Example Syntax:
 <pre>
-<angulist returnObject="myObj" inputid="myId" optiontextfield="objName" localdata="objectArray" inputclass="form-control form-control-small"/>
+`<angulist returnObject="myObj" inputid="myId" optiontextfield="objName" localdata="objectArray" inputclass="form-control form-control-small"/>`
 </pre>
 The generated output would be:
-<textarea>
-<input id="myId" class="form-control form-control-small" ng-model="returnValue" list="myId-list">
+<pre>
+`<input id="myId" class="form-control form-control-small" ng-model="returnValue" list="myId-list">
 <datalist id="myId-list">
 <option>Test Name 1</option>
 <option>Test Name 2</option>
-</datalist>
-</textarea>
+</datalist>`
+</pre>
 
 If the user selects the second option the returnObject value would be:
 <pre>
-returnObject = {"Name":"Test Name 2", "Value": "5678"};
+`returnObject = {"Name":"Test Name 2", "Value": "5678"};`
 </pre>
