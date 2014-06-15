@@ -23,13 +23,13 @@ Example Syntax:
 <angulist returnObject="myObj" inputid="myId" optiontextfield="objName" localdata="objectArray" inputclass="form-control form-control-small"/>
 </pre>
 The generated output would be:
-<pre>
+<textarea>
 <input id="myId" class="form-control form-control-small" ng-model="returnValue" list="myId-list">
 <datalist id="myId-list">
 <option>Test Name 1</option>
 <option>Test Name 2</option>
 </datalist>
-</pre>
+</textarea>
 
 If the user selects the second option the returnObject value would be:
 <pre>
