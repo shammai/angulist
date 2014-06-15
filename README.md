@@ -20,7 +20,7 @@ var objectArray = [{"Name":"Test Name 1", "Value":"1234"},{"Name": "Test Name 2"
 
 Example Syntax:
 <pre>
-`<angulist returnObject="myObj" inputid="myId" optiontextfield="objName" localdata="objectArray" inputclass="form-control form-control-small"/>`
+&lt angulist returnObject="myObj" inputid="myId" optiontextfield="objName" localdata="objectArray" inputclass="form-control form-control-small" /&gt
 </pre>
 The generated output would be:
 <pre>
